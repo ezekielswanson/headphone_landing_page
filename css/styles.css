@@ -77,8 +77,26 @@ img {
     position: relative; 
     right: 16.5em;
     bottom: 10em;
-
-
-
 }
 
+
+/** SECTION TWO **/
+
+.section_two {
+    background-image: url(../../images/overlay_image.png);
+    padding: 20em;
+    background-repeat: no-repeat;
+    
+}
+
+.section_two_text > h3 {
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.section_two_text h2 {
+    font-size: 5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
