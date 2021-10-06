@@ -85,6 +85,7 @@ img {
 .section_two {
     background-image: url(../../images/overlay_image.png);
     padding: 20em;
+    padding-bottom: 0;
     background-repeat: no-repeat;
     
 }
@@ -100,3 +101,44 @@ img {
     color: #FFFFFF;
     text-align: center;
 }
+
+
+/** FOOTER **/
+
+.footer_section {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.footer_section > * {
+    flex-basis: 100%;
+}
+
+.footer_section ul {
+    padding-left: 0;
+}
+
+.col_2, .col_3, .col_4 {
+    margin-top: 1em;
+
+}
+
+.col_1 > h2 {
+    font-size: 2rem;
+    margin-left: 3em;
+}
+
+.col_2 > h3, li {
+    font-size: 1.17em;
+    list-style: none;
+
+}
+
+
+.col_2 ul {
+    padding: none;
+}
+
